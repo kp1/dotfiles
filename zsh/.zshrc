@@ -80,5 +80,5 @@ bindkey -s "^[Oo" "/"
 bindkey "^[ " autosuggest-accept
 bindkey "^[^M" autosuggest-execute
 
-# calcel opt
+# cancel opt
 unsetopt extendedglob
