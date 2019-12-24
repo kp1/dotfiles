@@ -47,7 +47,7 @@ function fzf-cdr() {
 alias cdd='fzf-cdr'
 
 # git functions
-[[ ! -f ~/.git-fzf.zsh ]] || source ~/.git-fzf.zsh
+[[ ! -f ${ZDOTDIR:-$HOME}/.git-fzf.zsh ]] || source ${ZDOTDIR:-$HOME}/.git-fzf.zsh
 alias gad=fzf-git-add
 alias gsw=fzf-git-switch
 alias gdbr=fzf-git-delete-branch
