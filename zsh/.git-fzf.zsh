@@ -17,7 +17,7 @@ function fzf-git-add {
   fi
 }
 
-function fzf-git-checkout {
+function fzf-git-switch {
   check-git-repository || return $?
 
   local branches=$(unbuffer git for-each-ref \
@@ -38,9 +38,9 @@ function fzf-git-checkout {
   if [[ $refs == "refs/remotes/"* ]];then
     # remote branch
     b=$(echo $branch | sed "s#[^/]*/##")
-    git checkout -b $b $branch 2> /dev/null || echo "'$b' is already exist."; git checkout $b
+    git switch -c $b $branch 2> /dev/null || echo "$b is already exist."; git switch $b
   else
-    git checkout $branch
+    git switch $branch
   fi
 }
 

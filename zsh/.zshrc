@@ -49,7 +49,7 @@ alias cdd='fzf-cdr'
 # git functions
 [[ ! -f ~/.git-fzf.zsh ]] || source ~/.git-fzf.zsh
 alias gad=fzf-git-add
-alias gco=fzf-git-checkout
+alias gsw=fzf-git-switch
 alias gdbr=fzf-git-delete-branch
 # alias
 alias agrep='ack'
