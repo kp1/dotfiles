@@ -1,0 +1,51 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "git.autorefresh": true,
+  "[scss]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+  },
+  "[vue]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "autoFix": true,
+      "language": "javascript"
+    },
+    {
+      "autoFix": true,
+      "language": "vue"
+    },
+  ],
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "git.confirmSync": false,
+  "window.titleBarStyle": "custom",
+  "explorer.confirmDelete": false,
+  "[cpp]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false
+  },
+  "files.insertFinalNewline": true,
+  "eslint.packageManager": "yarn",
+  "ruby.rubocop.useBundler": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.renderWhitespace": "boundary",
+  "files.trimTrailingWhitespace": true,
+  "terminal.integrated.fontFamily": "ubuntu mono, MesloLGS NF",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+}
