@@ -2,5 +2,6 @@
 # zsh
 .chpwd-recent-dirs
 .zcompdump*
+.zcompcache/
 .zhistory
 .zsh_history

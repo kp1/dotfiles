@@ -56,6 +56,8 @@ alias agrep='ack'
 alias diff='diff -u'
 alias g='git'
 
+alias sudo='nocorrect sudo '
+
 if [ -x /usr/share/vim/vim80/macros/less.sh ];then
   alias less='/usr/share/vim/vim80/macros/less.sh'
 fi
