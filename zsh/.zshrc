@@ -16,7 +16,7 @@ zplug "modules/spectrum", from:prezto
 zplug "modules/utility", from:prezto
 zplug "modules/completion", from:prezto
 zplug "modules/prompt", from:prezto
-zplug "modules/command_not_found", from:prezto
+zplug "modules/command-not-found", from:prezto
 zplug "modules/ruby", from:prezto
 
 zstyle ':prezto:*:*' color 'yes'
